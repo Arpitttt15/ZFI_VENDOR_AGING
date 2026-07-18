@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "AP Vendor Aging Report"
+  },
+  "ui5AppDetails": {
+    "appId": "zfivendorage"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B798523E2371A7FB6359B75DFFC389D061B600EA_TM",
+    "semanticObject": "Vendor",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B798523E2371A7FB6359B75DFFC389D061B600EA_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "AP Vendor Aging Report",
+        "icon": "sap-icon://expense-report"
+      }
+    }
+  ]
+}
